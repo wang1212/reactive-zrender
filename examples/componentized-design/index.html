@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Example</title>
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+      body {
+        overflow: hidden;
+      }
+
+      .container {
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .tools {
+        margin-bottom: 12px;
+      }
+
+      #app {
+        overflow: hidden;
+        flex: 1;
+        height: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="tools">
+        <button id="adapt">adapt</button>
+        <button id="adaptAnimate">adaptAnimate</button>
+        <button id="zoomOut">zoomOut</button>
+        <span id="zoom">1</span>
+        <button id="zoomIn">zoomIn</button>
+        <button id="resetView">resetView</button>
+      </div>
+      <div id="app"></div>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
