@@ -156,18 +156,6 @@ canvas.render(
         y: 100,
         scaleX: 2,
       },
-      animation1: {
-        when: [
-          {
-            time: 300,
-            zoom: [2.5, true],
-          },
-          {
-            time: 5e2,
-            zoom: [0.8, true],
-          },
-        ],
-      },
     },
     [
       {
