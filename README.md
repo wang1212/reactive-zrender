@@ -242,7 +242,7 @@ canvas.render(
 );
 ```
 
-Yes, the code is ugly, and that's because there's no JSX, because JSX requires compiler support.
+Yes, the code is ugly, and that's because there's no [JSX](https://legacy.reactjs.org/docs/introducing-jsx.html), because JSX requires compiler support.
 
 `render()` can be called multiple times, implementing a **React-like Diff mechanism**.
 
