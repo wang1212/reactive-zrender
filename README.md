@@ -193,8 +193,6 @@ canvas.render(
           y: 40,
         },
         [
-          // * 组件的子元素可以是其它组件，也可以是原生 zrender 元素
-          // 原生 zenrder 元素
           {
             type: 'rect',
             props: {
@@ -210,7 +208,6 @@ canvas.render(
               },
             },
           },
-          // 其它组件
           Rect({
             width: 30,
             height: 10,
